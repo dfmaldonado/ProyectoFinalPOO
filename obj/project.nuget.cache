@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F2D/+oYZiTU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\ProyectoFinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\difer\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.1\\microsoft.dotnet.ilcompiler.9.0.1.nupkg.sha512",
+    "C:\\Users\\difer\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.1\\microsoft.net.illink.tasks.9.0.1.nupkg.sha512",
+    "C:\\Users\\difer\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
+    "C:\\Users\\difer\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.1\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
