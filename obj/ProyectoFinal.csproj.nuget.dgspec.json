@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\ProyectoFinal.csproj": {}
+    "C:\\Users\\joelv\\ProjectsPoo\\Unidad3\\ProyectoPOO\\ProyectoFinalPOO\\ProyectoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\ProyectoFinal.csproj": {
+    "C:\\Users\\joelv\\ProjectsPoo\\Unidad3\\ProyectoPOO\\ProyectoFinalPOO\\ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\ProyectoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\joelv\\ProjectsPoo\\Unidad3\\ProyectoPOO\\ProyectoFinalPOO\\ProyectoFinal.csproj",
         "projectName": "ProyectoFinal",
-        "projectPath": "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\ProyectoFinal.csproj",
-        "packagesPath": "C:\\Users\\difer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\difer\\Desktop\\Proyecto\\Unidad I\\PRACTICAS\\Practica\\ProyectoFinal\\obj\\",
+        "projectPath": "C:\\Users\\joelv\\ProjectsPoo\\Unidad3\\ProyectoPOO\\ProyectoFinalPOO\\ProyectoFinal.csproj",
+        "packagesPath": "C:\\Users\\joelv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joelv\\ProjectsPoo\\Unidad3\\ProyectoPOO\\ProyectoFinalPOO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\difer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joelv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,11 +50,33 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.DotNet.ILCompiler": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -65,6 +87,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.6, )"
             }
           },
           "imports": [
